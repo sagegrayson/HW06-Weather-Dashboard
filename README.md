@@ -16,6 +16,9 @@ search for a city
 ![screenshot](./assets/screenshot.png)
 
 This is a js based weather dashboard that pulls from the open weather api.
+
+[Link](https://sagegrayson.github.io/HW6-Weather-Dashboard/)
+
 ## Contents
 - [Usage](#usage)
 - [Contributors](#contributors)
