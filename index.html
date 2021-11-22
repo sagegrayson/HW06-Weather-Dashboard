@@ -20,53 +20,127 @@
 		<div class="row">
 			<div class="col">
 				<h2>Search for a City:</h2>
-				<input type="text" placeholder="city" />
-				<button>Search</button>
+				<input type="text" placeholder="city" id="search-text" />
+				<button id="search-button">Search</button>
 				<hr />
-				<button>[past search]</button>
+				<button id="past-search">[past search]</button>
 			</div>
 			<div class="col-10">
 				<div>
-					<h2>[City]<span>[Date]</span><span>[i]</span></h2>
-					<p>Temperature<span>[]</span></p>
-					<p>Humidity<span>[]</span></p>
-					<p>Wind Speed<span>[]</span></p>
-					<p>UV Index<span>[]</span></p>
+					<h2 id="main-city">
+						[City]<span id="main-date">[Date]</span
+						><span id="main-icon">[i]</span>
+					</h2>
+					<p>Temperature<span id="main-temp">[]</span></p>
+					<p>Humidity<span id="main-humi">[]</span></p>
+					<p>Wind Speed<span id="main-wind">[]</span></p>
+					<p>UV Index<span id="main-UVin">[]</span></p>
 				</div>
 				<h2>Five Day Forecast:</h2>
 				<div class="row">
 					<div class="col">
-						<h3>Date<span>[i]</span></h3>
-						<p>Temperature<span>[]</span></p>
-						<p>Humidity<span>[]</span></p>
-						<p>Wind Speed<span>[]</span></p>
+						<div class="card" id="fc1">
+							<div class="card-body">
+								<h3 class="card-title" id="date1">
+									Date<span id="icon1">[i]</span>
+								</h3>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">
+										Temperature<span id="temp1">[]</span>
+									</li>
+									<li class="list-group-item">
+										Humidity<span id="humi1">[]</span>
+									</li>
+									<li class="list-group-item">
+										Wind Speed<span id="wind1">[]</span>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 					<div class="col">
-						<h3>Date<span>[i]</span></h3>
-						<p>Temperature<span>[]</span></p>
-						<p>Humidity<span>[]</span></p>
-						<p>Wind Speed<span>[]</span></p>
+						<div class="card" id="fc2">
+							<div class="card-body">
+								<h3 class="card-title" id="date2">
+									Date<span id="icon2">[i]</span>
+								</h3>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">
+										Temperature<span id="temp2">[]</span>
+									</li>
+									<li class="list-group-item">
+										Humidity<span id="humi2">[]</span>
+									</li>
+									<li class="list-group-item">
+										Wind Speed<span id="wind2">[]</span>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 					<div class="col">
-						<h3>Date<span>[i]</span></h3>
-						<p>Temperature<span>[]</span></p>
-						<p>Humidity<span>[]</span></p>
-						<p>Wind Speed<span>[]</span></p>
+						<div class="card" id="fc3">
+							<div class="card-body">
+								<h3 class="card-title" id="date3">
+									Date<span id="icon3">[i]</span>
+								</h3>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">
+										Temperature<span id="temp3">[]</span>
+									</li>
+									<li class="list-group-item">
+										Humidity<span id="humi3">[]</span>
+									</li>
+									<li class="list-group-item">
+										Wind Speed<span id="wind3">[]</span>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 					<div class="col">
-						<h3>Date<span>[i]</span></h3>
-						<p>Temperature<span>[]</span></p>
-						<p>Humidity<span>[]</span></p>
-						<p>Wind Speed<span>[]</span></p>
+						<div class="card" id="fc4">
+							<div class="card-body">
+								<h3 class="card-title" id="date4">
+									Date<span id="icon4">[i]</span>
+								</h3>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">
+										Temperature<span id="temp4">[]</span>
+									</li>
+									<li class="list-group-item">
+										Humidity<span id="humi4">[]</span>
+									</li>
+									<li class="list-group-item">
+										Wind Speed<span id="wind4">[]</span>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 					<div class="col">
-						<h3>Date<span>[i]</span></h3>
-						<p>Temperature<span>[]</span></p>
-						<p>Humidity<span>[]</span></p>
-						<p>Wind Speed<span>[]</span></p>
+						<div class="card" id="fc5">
+							<div class="card-body">
+								<h3 class="card-title" id="date5">
+									Date<span id="icon5">[i]</span>
+								</h3>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">
+										Temperature<span id="temp5">[]</span>
+									</li>
+									<li class="list-group-item">
+										Humidity<span id="humi5">[]</span>
+									</li>
+									<li class="list-group-item">
+										Wind Speed<span id="wind5">[]</span>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</body>
+	<script src="./assets/script.js"></script>
 </html>
