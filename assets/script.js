@@ -91,7 +91,7 @@ searchButton.addEventListener("click", function (event) {
 	var currentCity = searchText.value;
 	saveCity(currentCity);
 	// mainWeather(currentCity);
-	// forecastWeather(currentCity);
+	forecastWeather(currentCity);
 });
 
 // FUNCTIONS ===================================================
