@@ -64,7 +64,8 @@ function saveCity(cityToSave) {
 	const para = document.createElement("button");
 	const node = document.createTextNode(cityToSave);
 	para.appendChild(node);
-	para.setAttribute("class", "past-search");
+    para.setAttribute("class", "past-search btn btn-secondary");
+    para.setAttribute("type", "button")
 	const element = document.getElementById("past-searches");
 	element.appendChild(para);
 }
@@ -77,7 +78,8 @@ function getCities() {
 		const para = document.createElement("button");
 		const node = document.createTextNode(value);
 		para.appendChild(node);
-		para.setAttribute("class", "past-search");
+		para.setAttribute("class", "past-search btn btn-secondary");
+        para.setAttribute("type", "button")
 		const element = document.getElementById("past-searches");
 		element.appendChild(para);
 	}
